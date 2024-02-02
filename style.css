@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/varela-round-3');
+body{
+    background-color: #A367B1;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 53px;
+    background-color: black;
+    color: white;
+}
+nav ul li {
+    padding: 0 12px;
+}
+.brand img {
+    width: 50px;
+    padding: 0 8px;
+}
+.brand {
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+nav ul li.brand.right {
+    margin-left: auto;
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container {
+    min-height: 53vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif; 
+    display: flex;
+    margin: 18px auto;
+    width: 71%;      
+    border-radius: 12px;   
+    padding: 26px;       
+    background-image: url('images/bg.jpg');    
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Increase both width and height by 200% */
+}
+.bottom{
+    position: sticky;
+    height: 101px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+#myProgressBar{
+    cursor: pointer;
+    width: 80vw;
+}
+.songItemcontainer{   
+    margin-top: 35px;
+}
+.SongItem{
+    height: 42px;
+    display: flex;
+    background-color: #fff;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.SongItem img{
+    width: 35px;
+    margin: 0 23px;
+    border-radius: 25px;
+    
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    margin: 0 23px;
+    cursor: pointer;
+}
+.SongInfo{
+    position: absolute;
+    font-family: 'Varela Round', sans-serif; 
+    left: 10vw;
+}
+.SongInfo img{
+    opacity: 0;
+    transition: opacity 0.1s ease-in;
+}
