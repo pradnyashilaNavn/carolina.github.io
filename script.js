@@ -14,7 +14,7 @@ let songs = [
     {songName: "Reha Ni Hunn Aitbaar Sohniye | No Love", filePath: "songs/5.mp3", coverPath : "images/covers/5.jpg"},
     {songName: "Swag Se Swagat | Tiger Zinda Hai", filePath: "songs/6.mp3", coverPath : "images/covers/6.jpg"},
     {songName: "Gadar2 - Main Nikla Gaddi Leke", filePath: "songs/7.mp3", coverPath : "images/covers/7.jpg"},
-    {songName: "ROCK THA PARTY SONG - ROCKY HANDSOME", filePath: "songs/8.mp3", coverPath : "images/covers/8.jpg"},
+    {songName: "Rock Tha Party - Rocky Handsome", filePath: "songs/8.mp3", coverPath : "images/covers/8.jpg"},
      
 ]
 // songItemsArray.forEach((element, i)=> {
