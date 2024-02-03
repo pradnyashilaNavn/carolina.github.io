@@ -122,4 +122,7 @@ nav ul li.brand.right {
         background-image: none;    
         background-color: #000;
     }
+    .bottom{
+        height: 110px;
+    }
 }
