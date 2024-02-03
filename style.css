@@ -117,5 +117,8 @@ nav ul li.brand.right {
     }
     #myProgressBar{
         margin-top: 10px;
-}
+   }
+    body{
+        background-color: #000;
+    }
 }
