@@ -110,5 +110,6 @@ nav ul li.brand.right {
     }
     .SongItem {
         height: 59px;
+        font-size: 15px;
     }
 }
