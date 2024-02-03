@@ -112,4 +112,7 @@ nav ul li.brand.right {
         height: 60px;
         font-size: 14px;
     }
+    .SongInfo{
+        margin-top: -22px;
+    }
 }
