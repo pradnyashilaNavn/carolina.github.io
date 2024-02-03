@@ -115,4 +115,7 @@ nav ul li.brand.right {
     .SongInfo{
         margin-top: -22px;
     }
+    #myProgressBar{
+        margin-top: 5px;
+}
 }
