@@ -86,8 +86,7 @@ nav ul li.brand.right {
 .SongItem img{
     width: 35px;
     margin: 0 23px;
-    border-radius: 25px;
-    
+    border-radius: 25px;   
 }
 .timestamp{
     margin: 0 23px;
@@ -104,4 +103,12 @@ nav ul li.brand.right {
 .SongInfo img{
     opacity: 0;
     transition: opacity 0.1s ease-in;
+}
+@media only screen and (max-width: 767px) {
+    .icons{
+        margin-top: 35px;
+    }
+    .SongItem {
+        height: 59px;
+    }
 }
